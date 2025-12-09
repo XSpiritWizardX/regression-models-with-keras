@@ -1,0 +1,15 @@
+# Virtual env and lock files
+.venv/
+Pipfile.lock
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE/editor
+.vscode/
+.idea/
+
+# Generated figures
+figures/
+*.png
