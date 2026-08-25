@@ -2,6 +2,17 @@
 
 A TensorFlow/Keras regression project for predicting **concrete compressive strength** from mixture composition and age. The project started from the IBM/CognitiveClass deep-learning exercise and was converted from a notebook-style walkthrough into a reusable Python/CLI project for model experimentation, visualization, and agent-assisted engineering.
 
+## Documentation languages
+
+Full project documentation is available in three languages:
+
+- [English](docs/project-guide.en.md)
+- [한국어 / Korean](docs/project-guide.ko.md)
+- [日本語 / Japanese](docs/project-guide.ja.md)
+- [Multilingual documentation index](docs/README.md)
+
+The three guides are maintained in parallel. The English guide is the reference version for technical terminology, while API names, Python identifiers, filenames, and commands remain unchanged across translations.
+
 ## Why this project exists
 
 This repository has two goals:
@@ -53,6 +64,7 @@ visualize_data.py      # histograms, correlation heatmap, predictor/target scatt
 requirements.txt       # runtime dependencies
 Pipfile                # Python environment configuration
 README.md              # project, ML methodology, and agentic workflow documentation
+docs/                  # English, Korean, and Japanese project documentation
 ```
 
 ## Agentic AI development workflow
